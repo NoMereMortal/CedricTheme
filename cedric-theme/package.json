@@ -1,0 +1,26 @@
+{
+  "name": "cedric-theme",
+  "displayName": "Cedric Theme",
+  "description": "Cedric's custom theme",
+  "version": "0.0.1",
+  "publisher": "cedric",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cedric/vscode-theme"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cedric Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Cedric Theme-color-theme.json"
+      }
+    ]
+  }
+}

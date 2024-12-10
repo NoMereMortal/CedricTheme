@@ -1,0 +1,119 @@
+{
+    "name": "Cedric Theme",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#011627",
+        "editor.foreground": "#D6DEEB"
+    },
+    "tokenColors": [
+        {
+            "name": "Comments",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#4B6479"
+            }
+        },
+        {
+            "name": "Variables and Parameters",
+            "scope": [
+                "variable",
+                "variable.parameter"
+            ],
+            "settings": {
+                "foreground": "#D6DEEB"
+            }
+        },
+        {
+            "name": "Keywords",
+            "scope": [
+                "keyword",
+                "storage.type",
+                "storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#C792EA"
+            }
+        },
+        {
+            "name": "Functions and Methods",
+            "scope": [
+                "entity.name.function",
+                "meta.function-call",
+                "variable.function"
+            ],
+            "settings": {
+                "foreground": "#82AAFF"
+            }
+        },
+        {
+            "name": "Classes",
+            "scope": [
+                "entity.name.me.type",
+                "entity.other.inherited-class"
+            ],
+            "settings": {
+                "foreground": "#FFCB6B"
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": "string",
+            "settings": {
+                "foreground": "#ECC48D"
+            }
+        },
+        {
+            "name": "Numbers",
+            "scope": "constant.numeric",
+            "settings": {
+                "foreground": "#F78C6C"
+            }
+        },
+        {
+            "name": "Constants",
+            "scope": "constant",
+            "settings": {
+                "foreground": "#82AAFF"
+            }
+        },
+        {
+            "name": "Built-in functions",
+            "scope": "support.function",
+            "settings": {
+                "foreground": "#82AAFF"
+            }
+        },
+        {
+            "name": "Control flow keywords",
+            "scope": "keyword.control",
+            "settings": {
+                "foreground": "#C792EA"
+            }
+        },
+        {
+            "name": "Operators",
+            "scope": "keyword.operator",
+            "settings": {
+                "foreground": "#C792EA"
+            }
+        },
+        {
+            "name": "Property names",
+            "scope": "variable.other.property",
+            "settings": {
+                "foreground": "#7FDBCA"
+            }
+        },
+        {
+            "name": "Punctuation",
+            "scope": "punctuation",
+            "settings": {
+                "foreground": "#D6DEEB"
+            }
+        }
+    ]
+}
